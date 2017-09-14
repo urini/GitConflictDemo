@@ -6,6 +6,6 @@ context model {
     entity Entity_1 {
         elem_1 : String(10);
         elem_2 : String(10);
-        elem_3 : String(10);
+        elem_4 : String(10);
     };
 };
