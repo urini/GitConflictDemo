@@ -1,0 +1,16 @@
+ID: GitConflictDemo
+_schema-version: '2.0'
+version: 0.0.1
+
+modules:
+ - name: database
+   type: hdb
+   path: database
+   requires:
+    - name: hdi_database
+
+resources:
+ - name: hdi_database
+   properties:
+      hdi-container-name: ${service-name}
+   type: com.sap.xs.hdi-container
