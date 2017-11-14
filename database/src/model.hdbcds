@@ -8,4 +8,8 @@ context model {
         elem_2 : String(10);
         elem_4 : String(10);
     };
+
+/*@@layout{"layoutInfo":{"x":-127,"y":-65.5}}*/
+entity Entity_2{
+};
 };
